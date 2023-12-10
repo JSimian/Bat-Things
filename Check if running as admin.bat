@@ -1,4 +1,5 @@
 @echo off
+::Source: https://github.com/JSimian/Bat-Things/blob/main/Fix-AudioDG.bat
 net session >nul 2>&1
 if %errorLevel% NEQ 0 (
   :: Personalize as you want the error message
