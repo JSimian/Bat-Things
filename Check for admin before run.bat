@@ -1,6 +1,6 @@
 @echo off
 net session >nul 2>&1
-if %errorLevel% == 1 GOTO ADMOK (
+if %errorLevel% == 1 (
   :: Personalize as you want the error message
   echo Error^!
   echo This script needs to run as administrator.
