@@ -1,12 +1,12 @@
 @echo off
-::Original script: https://github.com/JSimian/Bat-Things/blob/main/Fix-AudioDG.bat
+::Source: https://github.com/JSimian/Bat-Things/blob/main/Fix-AudioDG.bat
 Title Fix AudioDG sound Glitches
 net session >nul 2>&1
 if %errorLevel% NEQ 0 (
   echo Error^!
   echo This script needs to run as administrator.
   echo Press any key to exit and go back to Windows explorer, 
-  echo right click the bat file, then click in 'Run as administrator'.
+  echo then right click the bat file, then click in 'Run as administrator'.
   pause >nul
   exit
 )
