@@ -1,5 +1,5 @@
 @echo off
-::Source: https://github.com/JSimian/Bat-Things/blob/main/Fix-AudioDG.bat
+::Source: https://github.com/JSimian/Bat-Things/
 Title Fix AudioDG sound Glitches
 net session >nul 2>&1
 if %errorLevel% NEQ 0 (
