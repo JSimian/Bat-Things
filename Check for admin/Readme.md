@@ -1,8 +1,9 @@
 Usage:
 
 Put the content of Batch.bat on top of your .bat script, when the user run:
-This will check if the .bat is  running as administrator.
 
+
+This will check if the .bat is  running as administrator
 If yes, this allow to keeps running and allows your code to run propertly.
 If not, it show an error message requesting user to run the file as administrator and closes the .bat
 
