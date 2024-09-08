@@ -1,5 +1,5 @@
 @echo off
-::Source: https://github.com/JSimian/Bat-Things/blob/main/Fix-AudioDG.bat
+::Source: https://github.com/JSimian/Bat-Things/
 
 set id=%random%
 title %id%
