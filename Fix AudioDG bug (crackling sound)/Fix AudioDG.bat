@@ -13,5 +13,5 @@ if %errorLevel% NEQ 0 (
 ECHO Setting audiodg process affinity as single-core...
 powershell $process = Get-Process audiodg ; $process.ProcessorAffinity = 4
 ECHO Setting audiodg priority as high
-wmic process where name="audiodg.exe" call setpriority 128
+powershell.exe -Command "Get-WmiObject Win32_Process -Filter 'Name=\"audiodg.exe\"' | ForEach-Object { $_.SetPriority(128) }"
 exit
